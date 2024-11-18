@@ -1,0 +1,92 @@
+.case-sty-main-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 1), rgba(116, 129, 250, 1));
+    margin-bottom: 5%;
+}
+
+.case-sty-cont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.case-sty-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.case-sty-title{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.view-btn{
+    width: 147px;
+    height: 47px;
+    border: 1px solid white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.case-cards-cont{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.case-card{
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgba(24, 24, 27, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.case-card-img{
+    width: 100%;
+    height: 268px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.case-card-description-cont{
+    width: 100%;
+    padding: 16px;
+}
+
+.case-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.case-card-para{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.case-visit-part{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
